@@ -6,7 +6,7 @@ public class Password_gen {
   
     public static void main(String[] args) {
 
-	System.out.println("Welcome to Password_gen!\n this program has the porpouse of creating casual passwords.");
+	System.out.println("Welcome to Password_gen!\nthis program has the porpouse of creating casual passwords, formed by numbers, symbols, and letters both uppercase and lowercase. ");
 	Scanner word = new Scanner(System.in);
 	char choice;
 	do {
@@ -34,7 +34,9 @@ public class Password_gen {
     	catch(ArrayIndexOutOfBoundsException len) {
     		System.out.println("Please insert a password superior to one: ");
     	}
-    	
+	catch(OutOfMemoryError len) {
+	System.out.println("Please insert a number inferior to 1 bilion: ");
+	}
 	System.out.println("Do you want to continue? (yes/no)");
 				
 	choice = word.next().charAt(0);
