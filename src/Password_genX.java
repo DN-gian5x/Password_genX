@@ -2,7 +2,7 @@ import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Password_gen {
+public class Password_genX {
   
     public static void main(String[] args) {
 
