@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
-
+import java.util.concurrent.*;
 public class Password_genX {
   
     public static void main(String[] args) {
@@ -72,6 +72,8 @@ public class Password_genX {
 	   return password;
 	
 	}
+		
+
 	}
 	
 	
