@@ -6,7 +6,7 @@ public class Password_genX {
   
     public static void main(String[] args) {
 
-	System.out.println("Welcome to Password_gen!\nthis program has the porpouse of creating casual passwords, formed by numbers, symbols, and letters both uppercase and lowercase. ");
+	System.out.println("Welcome to Password_genX!\nthis program has the porpouse of creating casual passwords, formed by numbers, symbols, and letters both uppercase and lowercase. ");
 	Scanner word = new Scanner(System.in);
 	char choice;
 	do {
