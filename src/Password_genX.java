@@ -50,8 +50,8 @@ public class Password_genX {
 		
 	private static char[] GeneratePS(int length) {
 		  String capitalCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	      String lowerCaseLetters = "abcdefghijklmnopqrstuvwxyzèùìàéòç";
-	      String specialCharacters = ",.-;:_-@#°[]{}!£$%&/()=?<>";
+	      String lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz";
+	      String specialCharacters = ",.-;:_-@#[]{}!£$%&/()=?<>";
 	      String numbers = "0123456789";
 	   
 	      String combinedChars = capitalCaseLetters + lowerCaseLetters + specialCharacters + numbers;
